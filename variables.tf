@@ -40,7 +40,7 @@ variable "nic_name" {
  
 variable "vm_size" {
   description = "Specifies the size of the virtual machine."
-  default     = "Standard_DS1_v2"
+  default     = "Standard_D2s_v3"
 }
  
 variable "image_publisher" {
